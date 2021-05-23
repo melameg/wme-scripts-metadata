@@ -1,0 +1,26 @@
+{
+  "greasyfork": [
+    {
+      "script": "385256-wme-venue-link",
+      "forum": "https://www.waze.com/forum/viewtopic.php?t=288197",
+      "waze": {
+        "user": "gad_m",
+        "environments": [
+          "il",
+          "usa",
+          "row"
+        ],
+        "languages": [
+          "iw"
+        ]
+      }
+    },
+    {
+      "script": "3206-wme-color-highlights",
+      "forum": "https://www.waze.com/forum/viewtopic.php?t=40705",
+      "waze": {
+        "user": "Timbones"
+      }
+    }
+  ]
+}
