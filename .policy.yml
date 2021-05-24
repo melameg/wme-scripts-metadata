@@ -1,5 +1,8 @@
+policy:
+  approval:
+    - only metadata.json file allowed
 approval_rules: 
-  - name: "only metadata.json file allowed"
+  - name: only metadata.json file allowed
     only_changed_files: 
       paths: 
         - src/metadata.json
