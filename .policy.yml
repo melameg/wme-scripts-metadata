@@ -1,4 +1,5 @@
-name: "example rule"
-  only_changed_files:
-    paths:
-      - "src/metadata.json"
+approval_rules: 
+  - name: "only metadata.json file allowed"
+    only_changed_files: 
+      paths: 
+        - src/metadata.json
