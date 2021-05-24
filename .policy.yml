@@ -1,0 +1,4 @@
+name: "example rule"
+  only_changed_files:
+    paths:
+      - "src/metadata.json"
