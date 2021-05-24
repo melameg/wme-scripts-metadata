@@ -1,0 +1,74 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/melameg/wme-scripts-metadata/build/wme.scripts.schema.json",
+  "title": "WME Scripts Metadata",
+  "description": "A WME Script Metadata",
+  "type": "object",
+  "properties": {
+    "greasyfork": {
+      "description": "WME Scripts stored in greasyfork repository",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "script": {
+            "description": "greasyfork unique ID",
+            "type": "string"
+          },
+          "forum": {
+            "description": "URL to scripts Waze forum topic",
+            "$ref": "#/definitions/forumUrl"
+          },
+          "waze": {
+            "description": "Waze script metadata",
+            "type": "object",
+            "properties": {
+              "user": {
+                "type": "string",
+                "pattern": "^[A-Za-z0-9-_]"
+              },
+              "environments": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "enum": [
+                    "il",
+                    "usa",
+                    "row"
+                  ]
+                }
+              },
+              "languages": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "pattern": "^[a-z]{2}(-[A-Z]{2})?$"
+                }
+              }
+            },
+            "required": [
+              "user"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "required": [
+          "script",
+          "forum"
+        ],
+        "additionalProperties": false
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    }
+  },
+  "required": [
+    "greasyfork"
+  ],
+  "definitions": {
+    "forumUrl": {
+      "format": "uri",
+      "pattern": "^https://www.waze.com/forum/viewtopic.php\\?t=[0-9]{3,7}$"
+    }
+  }
+}
