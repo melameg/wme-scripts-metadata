@@ -1,9 +1,0 @@
-policy:
-  approval:
-    - approval necessary
-
-approval_rules:
-  - name: approval necessary
-    requires:
-      count: 1
-      users: ["melameg"]
