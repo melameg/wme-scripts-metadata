@@ -2,7 +2,7 @@ name: change only src/metadata.json
 on: 
   pull_request:
     paths-ignore:
-    - 'src/metadata.json'
+    - 'src/metadata1.json'
 jobs:
   verify-json-validation:
     runs-on: ubuntu-latest
