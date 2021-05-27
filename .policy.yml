@@ -1,11 +1,9 @@
 policy:
   approval:
-    - only metadata.json file allowed
-approval_rules: 
-  - name: only metadata.json file allowed
+    - approval necessary
+
+approval_rules:
+  - name: approval necessary
     requires:
-      count: 0
-    if:
-      only_changed_files:
-        paths:
-          - src/metadata.json
+      count: 1
+      users: ["melameg"]
