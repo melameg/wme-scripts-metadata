@@ -1,7 +1,8 @@
 name: change only src/metadata.json
-on: [pull_request]
-paths-ignore:
-  - 'src/metadata1.json'
+on: 
+  pull_request:
+    paths-ignore:
+    - 'src/metadata.json'
 jobs:
   verify-json-validation:
     runs-on: ubuntu-latest
