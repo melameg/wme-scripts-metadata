@@ -3,6 +3,9 @@ policy:
     - only metadata.json file allowed
 approval_rules: 
   - name: only metadata.json file allowed
-    only_changed_files: 
-      paths: 
-        - src/metadata.json
+    requires:
+      count: 0
+    if:
+      only_changed_files:
+        paths:
+          - src/metadata.json
