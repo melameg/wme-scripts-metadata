@@ -1,13 +1,13 @@
-name: change only src/metadata.json
+name: Changed Files
 on: 
   pull_request:
     paths-ignore:
-    - 'src/metadata1.json'
+    - 'src/metadata.json'
 jobs:
-  verify-json-validation:
+  validate-files-path:
     runs-on: ubuntu-latest
     steps:
-      - name: Limit changed files
+      - name: Fail the check
         run: |
           echo "modifying files other than src/metadata.json is not allowed"
           exit (1)
