@@ -19,14 +19,14 @@
                 "row"
             ],
             "languages": [
-                "iw"
+                "he"
             ]
         }
     },
     "3206-wme-color-highlights": {
         "created_at": "2014-07-10T23:18:40.000Z",
         "daily_installs": 1,
-        "total_installs": 5925,
+        "total_installs": 5940,
         "code_updated_at": "2021-05-01T11:12:00.000Z",
         "fan_score": "81.1",
         "user": "Timbones",
@@ -37,6 +37,54 @@
         "forum": "https://www.waze.com/forum/viewtopic.php?t=40705",
         "waze": {
             "user": "Timbones"
+        }
+    },
+    "40313-waze-edit-count-monitor": {
+        "created_at": "2018-04-05T19:12:55.000Z",
+        "daily_installs": 1,
+        "total_installs": 2839,
+        "code_updated_at": "2019-09-05T15:12:21.000Z",
+        "fan_score": "68.5",
+        "user": "WazeDev",
+        "name": "Waze Edit Count Monitor",
+        "description": "Displays your daily edit count in the WME toolbar.  Warns if you might be throttled.",
+        "url": "https://greasyfork.org/scripts/40313-waze-edit-count-monitor",
+        "code_url": "https://greasyfork.org/scripts/40313-waze-edit-count-monitor/code/Waze%20Edit%20Count%20Monitor.user.js",
+        "forum": "https://www.waze.com/forum/viewtopic.php?t=190424",
+        "waze": {
+            "user": "MapOMatic"
+        }
+    },
+    "369630-wme-route-speeds-mapomatic-fork": {
+        "created_at": "2018-06-19T15:08:01.000Z",
+        "daily_installs": 1,
+        "total_installs": 1835,
+        "code_updated_at": "2020-09-10T15:40:08.000Z",
+        "fan_score": "64.6",
+        "user": "WazeDev",
+        "name": "WME Route Speeds %28MapOMatic fork%29",
+        "description": "Shows segment speeds in a route.",
+        "url": "https://greasyfork.org/scripts/369630-wme-route-speeds-mapomatic-fork",
+        "code_url": "https://greasyfork.org/scripts/369630-wme-route-speeds-mapomatic-fork/code/WME%20Route%20Speeds%20%28MapOMatic%20fork%29.user.js",
+        "forum": "https://www.waze.com/forum/viewtopic.php?t=105839",
+        "waze": {
+            "user": "MapOMatic"
+        }
+    },
+    "370072-wme-advanced-closures": {
+        "created_at": "2018-07-05T19:29:56.000Z",
+        "daily_installs": 1,
+        "total_installs": 1265,
+        "code_updated_at": "2020-12-01T19:53:25.000Z",
+        "fan_score": "57.1",
+        "user": "WazeDev",
+        "name": "WME Advanced Closures",
+        "description": "Recurrent and imported closures in the Waze Map Editor",
+        "url": "https://greasyfork.org/scripts/370072-wme-advanced-closures",
+        "code_url": "https://greasyfork.org/scripts/370072-wme-advanced-closures/code/WME%20Advanced%20Closures.user.js",
+        "forum": "https://www.waze.com/forum/viewtopic.php?t=261114",
+        "waze": {
+            "user": "WazDev"
         }
     }
 }
