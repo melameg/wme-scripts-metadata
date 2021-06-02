@@ -21,6 +21,34 @@
       "waze": {
         "user": "Timbones"
       }
+    },
+    {
+      "script": "40313-waze-edit-count-monitor",
+      "forum": "https://www.waze.com/forum/viewtopic.php?t=190424",
+      "waze": {
+        "user": "MapOMatic"
+      }
+    },
+    {
+      "script": "369630-wme-route-speeds-mapomatic-fork",
+      "forum": "https://www.waze.com/forum/viewtopic.php?t=105839",
+      "waze": {
+        "user": "MapOMatic"
+      }
+    },
+    {
+      "script": "370072-wme-advanced-closures",
+      "forum": "https://www.waze.com/forum/viewtopic.php?t=261114",
+      "waze": {
+        "user": "WazDev"
+      }
+    },
+    {
+      "script": "3206-wme-color-highlights",
+      "forum": "https://www.waze.com/forum/viewtopic.php?t=40705",
+      "waze": {
+        "user": "Timbones"
+      }
     }
   ]
 }
