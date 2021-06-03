@@ -49,6 +49,13 @@
       "waze": {
         "user": "Timbones"
       }
+    },
+    {
+      "script": "1952-uroverview-plus-uro",
+      "forum": "https://www.waze.com/forum/viewtopic.php?t=29054",
+      "waze": {
+        "user": "Twister-UK"
+      }
     }
   ]
 }
